@@ -1,4 +1,7 @@
 <?php
+/*
+Lakshita Madhavan October 3, 2024
+IT 202 001  || Phase 1 Assignment*/
 
 function getDB() {
    $host = 'sql1.njit.edu';

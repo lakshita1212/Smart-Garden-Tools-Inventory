@@ -1,4 +1,8 @@
 <?php
+/*
+Lakshita Madhavan October 3, 2024
+IT 202 001  || Phase 1 Assignment*/
+
 require_once('database.php');
 $emailAddress = $_POST['emailAddress'];
 $password = $_POST['password'];

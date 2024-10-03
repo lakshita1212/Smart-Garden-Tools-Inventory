@@ -1,3 +1,7 @@
+/*
+Lakshita Madhavan October 3, 2024
+IT 202 001  || Phase 1 Assignment*/
+
 CREATE TABLE SmartGardeningToolsManagers (
  SmartGardeningToolsManagerID     INT(11)        NOT NULL   AUTO_INCREMENT,
  emailAddress           VARCHAR(255)   NOT NULL   UNIQUE,

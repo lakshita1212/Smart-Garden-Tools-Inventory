@@ -1,4 +1,8 @@
 <?php
+/*
+Lakshita Madhavan October 3, 2024
+IT 202 001  || Phase 1 Assignment*/
+
 if (!isset($_SESSION['login'])) {
 ?>
   <h2>Please log in to the Smart Gardening Tools Inventory</h2><br>
