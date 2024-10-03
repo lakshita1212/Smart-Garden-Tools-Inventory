@@ -1,5 +1,5 @@
 /*
-Lakshita Madhavan October 3, 2024
+Lakshita Madhavan October 3, 2024 lm66@njit.edu
 IT 202 001  || Phase 1 Assignment*/
 
 CREATE TABLE SmartGardeningToolsManagers (
