@@ -1,0 +1,19 @@
+
+/*
+Lakshita Madhavan October 17, 2024 lm66@njit.edu
+IT 202 001  || Phase 2 Assignment*/
+
+Create Category
+http://localhost:3000/addgardentoolscategory.test.php?ToolCategoryID=600&ToolCategoryCode=TEST&ToolCategoryName=Testing
+Verify Create Category
+http://localhost:3000/listgardentoolscategories.test.php
+
+Update Category
+http://localhost:3000/changegardentoolscategory.test.php?ToolCategoryID=600&ToolCategoryCode=TEST&ToolCategoryName=TestingChange&ToolShelfNumber=6&DateCreated=2024-10-1523:39:42
+Verify Update Category
+http://localhost:3000/listgardentoolscategories.test.php
+
+Delete Category
+http://localhost:3000/removegardentoolscategory.test.php?ToolCategoryID=600
+Verify Delete Category
+http://localhost:3000/listgardentoolscategories.test.php

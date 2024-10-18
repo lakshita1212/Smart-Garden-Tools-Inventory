@@ -1,0 +1,20 @@
+/*
+Lakshita Madhavan October 17, 2024 lm66@njit.edu
+IT 202 001  || Phase 2 Assignment*/
+
+Create product
+http://localhost:3000/addgardentoolsproduct.test.php?ToolProductID=16000&ToolProductCode=TEST&ToolProductName=Testing&ToolProductColor=Pink&ToolDescription=This%20is%20a%20test%20product&ToolCategoryID=500&ToolWholesalePrice=199.99&ToolListPrice=230.99&DateCreated=2024-10-17%2000:15:36
+Verify Create product
+http://localhost:3000/listgardentoolsproducts.test.php
+
+
+Update product
+http://localhost:3000/changegardentoolsproduct.test.php?ToolProductID=16000&ToolProductCode=TEST&ToolProductName=TestingUPDATED&ToolProductColor=Navy%20Blue&ToolDescription=This%20is%20a%20test%20product&ToolCategoryID=500&ToolWholesalePrice=199.99&ToolListPrice=230.99&DateCreated=2024-10-17%2019:37:46
+Verify Update product
+http://localhost:3000/listgardentoolsproducts.test.php
+
+
+Delete product
+http://localhost:3000/removegardentoolsproduct.test.php?ToolProductID=16000
+Verify Delete product
+http://localhost:3000/listgardentoolsproducts.test.php
