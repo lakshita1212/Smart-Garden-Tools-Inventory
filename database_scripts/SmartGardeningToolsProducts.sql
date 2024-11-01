@@ -106,3 +106,5 @@ VALUES
 
 
 SELECT * from SmartGardeningToolsProducts;
+
+DELETE from SmartGardeningToolsProducts WHERE ToolProductID =16000;

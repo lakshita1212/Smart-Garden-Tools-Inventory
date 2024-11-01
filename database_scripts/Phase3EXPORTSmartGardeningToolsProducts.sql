@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: sql1.njit.edu
--- Generation Time: Oct 18, 2024 at 01:01 AM
+-- Generation Time: Nov 01, 2024 at 09:39 PM
 -- Server version: 8.0.17
 -- PHP Version: 7.4.8
 
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `SmartGardeningToolsProducts` (
 --
 
 INSERT INTO `SmartGardeningToolsProducts` (`ToolProductID`, `ToolProductCode`, `ToolProductName`, `ToolProductColor`, `ToolDescription`, `ToolCategoryID`, `ToolWholesalePrice`, `ToolListPrice`, `DateCreated`) VALUES
-(1000, 'WEDIK', 'Wi-Fi Enabled Drip Irrigation Kit', 'Forest Green', 'Control your watering schedules remotely through a mobile app for optimal plant moisture. This system ensures efficient water usage while promoting healthy plant growth.', 100, 79.99, 129.99, '2024-10-15 23:58:31'),
+(1000, 'WEDIK', 'Wi-Fi Enabled Drip Irrigation Kit', 'Forest Green', 'Control your watering schedules remotely through a mobile app for optimal plant moisture. This system ensures efficient water usage while promoting healthy plant growth.', 100, 79.99, 132.99, '2024-10-15 23:58:31'),
 (2000, 'BST', 'Bluetooth Sprinkler Timer', 'Navy Blue', 'Easily customize watering times and durations via smartphone connectivity for tailored plant care. The Bluetooth connectivity allows for real-time adjustments and monitoring of your watering schedule.', 100, 39.99, 69.99, '2024-10-16 00:00:12'),
 (3000, 'SMBWS', 'Soil Moisture-Based Watering System', 'Terracotta', 'Automatically activates watering based on real-time soil moisture readings, preventing overwatering. This smart system adapts to your plants'' needs, ensuring they receive just the right amount of water.', 100, 89.99, 149.99, '2024-10-16 00:01:37'),
 (4000, 'WSMM', 'Wireless Soil Moisture Meter', 'Sage Green', 'Battery-operated device that provides real-time moisture readings and alerts you via smartphone when it''s time to water. The wireless feature allows for easy placement and relocation in your garden or indoor plant setup.', 200, 24.99, 44.99, '2024-10-16 00:03:53'),
@@ -57,7 +57,8 @@ INSERT INTO `SmartGardeningToolsProducts` (`ToolProductID`, `ToolProductCode`, `
 (12000, 'SRGS', 'Smart RGB Garden Spotlights', 'Glossy Black', 'Color-changing spotlights controlled via a smartphone app, allowing users to customize lighting effects for various occasions. Create the perfect ambiance for outdoor gatherings or highlight specific garden features with ease.', 400, 49.99, 84.99, '2024-10-16 00:13:04'),
 (13000, 'SIH', 'Smart Irrigation Hub', 'Mint Green', 'Central unit that connects to multiple irrigation systems, adjusting schedules based on local weather forecasts for efficient watering. This smart hub optimizes water usage across your entire garden, saving resources and promoting plant health.', 500, 79.99, 129.99, '2024-10-16 00:15:05'),
 (14000, 'RSA', 'Rain Sensor Attachmen', 'Sky Blue', 'Detects rainfall and pauses watering automatically, conserving water and preventing over-irrigation. This simple yet effective attachment ensures your plants receive natural rainwater when available, reducing unnecessary watering cycles.', 500, 19.99, 34.99, '2024-10-16 00:15:38'),
-(15000, 'MACIT', 'Mobile App-Controlled Irrigation Timer', 'Graphite Gray', 'Syncs with weather data to optimize watering schedules based on current conditions and forecasts. This mobile-controlled timer allows for remote adjustments and provides insights into your garden''s watering patterns for improved efficiency.', 500, 59.99, 99.99, '2024-10-16 00:16:03');
+(15000, 'MACIT', 'Mobile App-Controlled Irrigation Timer', 'Graphite Gray', 'Syncs with weather data to optimize watering schedules based on current conditions and forecasts. This mobile-controlled timer allows for remote adjustments and provides insights into your garden''s watering patterns for improved efficiency.', 500, 59.99, 99.99, '2024-10-16 00:16:03'),
+(16000, 'FWP', 'Flora Watch Pro', 'Amethyst Purple', '0', 600, 75.00, 149.99, '2024-11-01 21:16:11');
 
 --
 -- Indexes for dumped tables

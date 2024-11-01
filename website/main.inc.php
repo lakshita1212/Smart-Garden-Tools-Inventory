@@ -1,8 +1,7 @@
 <?php
 /*
-Lakshita Madhavan October 3, 2024 lm66@njit.edu
-IT 202 001  || Phase 1 Assignment*/
-
+Lakshita Madhavan November 1, 2024 lm66@njit.edu
+IT 202 001  || Phase 3 Assignment*/
 if (!isset($_SESSION['login'])) {
 ?>
   <h2>Please log in to the Smart Gardening Tools Inventory</h2><br>

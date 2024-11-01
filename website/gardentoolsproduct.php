@@ -1,7 +1,7 @@
 <?php
 /*
-Lakshita Madhavan October 17, 2024 lm66@njit.edu
-IT 202 001  || Phase 2 Assignment*/
+Lakshita Madhavan November 1, 2024 lm66@njit.edu
+IT 202 001  || Phase 3 Assignment*/
 require_once('database.php');
 
 class Item

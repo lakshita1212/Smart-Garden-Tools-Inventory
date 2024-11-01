@@ -1,8 +1,8 @@
 <?php
 /*
-Lakshita Madhavan October 17, 2024 lm66@njit.edu
-IT 202 001  || Phase 2 Assignment*/
-include("gardentoolsproduct.php");
+Lakshita Madhavan November 1, 2024 lm66@njit.edu
+IT 202 001  || Phase 3 Assignment*/
+include_once("gardentoolsproduct.php");
 
 $items = Item::getItems();
 foreach ($items as $item) {

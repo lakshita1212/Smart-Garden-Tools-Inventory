@@ -1,8 +1,7 @@
 <?php
 /*
-Lakshita Madhavan October 3, 2024 lm66@njit.edu
-IT 202 001  || Phase 1 Assignment*/
-
+Lakshita Madhavan November 1, 2024 lm66@njit.edu
+IT 202 001  || Phase 3 Assignment*/
 function getDB() {
    $host = 'sql1.njit.edu';
    $port = 3306;
