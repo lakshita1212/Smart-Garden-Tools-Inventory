@@ -1,5 +1,7 @@
-<!-- Lakshita Madhavan November 1, 2024 lm66@njit.edu
-IT 202 001  || Phase 3 Assignment-->
+<!-- 
+Lakshita Madhavan November 15, 2024 lm66@njit.edu
+IT 202 001  || Phase 4 Assignment
+-->
 
 <style>
 
@@ -19,6 +21,8 @@ IT 202 001  || Phase 3 Assignment-->
 </style>
 <div class="header-div">
    <img src="images/logo.png" alt="Garden Shop Logo">
+   <link rel="icon" href="images/faviconit.png" type="image/png">
+
    <div>
        <h1>Smart Garden Tools Shop</h1>
        <h2>Inventory Management</h2>

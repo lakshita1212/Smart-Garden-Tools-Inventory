@@ -39,3 +39,5 @@ VALUES
 
 
 SELECT * from SmartGardeningToolsCategories;
+
+DELETE FROM `SmartGardeningToolsCategories` where `ToolCategoryID` = 700;

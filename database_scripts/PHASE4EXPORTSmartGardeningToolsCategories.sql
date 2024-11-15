@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: sql1.njit.edu
--- Generation Time: Nov 01, 2024 at 09:39 PM
+-- Generation Time: Nov 15, 2024 at 04:50 PM
 -- Server version: 8.0.17
 -- PHP Version: 7.4.8
 
@@ -44,7 +44,8 @@ INSERT INTO `SmartGardeningToolsCategories` (`ToolCategoryID`, `ToolCategoryCode
 (300, 'APP', 'Automated Plant Pot', 3, '2024-10-15 23:41:46'),
 (400, 'SGL', 'Smart Garden Light', 4, '2024-10-15 23:45:35'),
 (500, 'WRIC', 'Weather Responsive Irrigation Controller', 5, '2024-10-15 23:47:20'),
-(600, 'SPMS', 'Smart Plant Monitoring Systems', 6, '2024-11-01 00:00:00');
+(600, 'SPMS', 'Smart Plant Monitoring Systems', 6, '2024-11-01 00:00:00'),
+(700, 'GDL', 'Garden Lights', 7, '2024-11-15 00:00:00');
 
 --
 -- Indexes for dumped tables

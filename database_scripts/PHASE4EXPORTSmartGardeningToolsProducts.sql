@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: sql1.njit.edu
--- Generation Time: Nov 01, 2024 at 09:39 PM
+-- Generation Time: Nov 15, 2024 at 04:50 PM
 -- Server version: 8.0.17
 -- PHP Version: 7.4.8
 
@@ -58,7 +58,8 @@ INSERT INTO `SmartGardeningToolsProducts` (`ToolProductID`, `ToolProductCode`, `
 (13000, 'SIH', 'Smart Irrigation Hub', 'Mint Green', 'Central unit that connects to multiple irrigation systems, adjusting schedules based on local weather forecasts for efficient watering. This smart hub optimizes water usage across your entire garden, saving resources and promoting plant health.', 500, 79.99, 129.99, '2024-10-16 00:15:05'),
 (14000, 'RSA', 'Rain Sensor Attachmen', 'Sky Blue', 'Detects rainfall and pauses watering automatically, conserving water and preventing over-irrigation. This simple yet effective attachment ensures your plants receive natural rainwater when available, reducing unnecessary watering cycles.', 500, 19.99, 34.99, '2024-10-16 00:15:38'),
 (15000, 'MACIT', 'Mobile App-Controlled Irrigation Timer', 'Graphite Gray', 'Syncs with weather data to optimize watering schedules based on current conditions and forecasts. This mobile-controlled timer allows for remote adjustments and provides insights into your garden''s watering patterns for improved efficiency.', 500, 59.99, 99.99, '2024-10-16 00:16:03'),
-(16000, 'FWP', 'Flora Watch Pro', 'Amethyst Purple', '0', 600, 75.00, 149.99, '2024-11-01 21:16:11');
+(16000, 'FWP', 'Flora Watch Pro', 'Amethyst Purple', '0', 600, 75.00, 149.99, '2024-11-01 21:16:11'),
+(17000, 'DGDL', 'Diamond Garden Lights', 'Clear', '0', 700, 45.00, 50.00, '2024-11-15 16:31:58');
 
 --
 -- Indexes for dumped tables

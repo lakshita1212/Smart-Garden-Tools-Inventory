@@ -1,7 +1,8 @@
 <?php
 /*
-Lakshita Madhavan November 1, 2024 lm66@njit.edu
-IT 202 001  || Phase 3 Assignment*/
+Lakshita Madhavan November 15, 2024 lm66@njit.edu
+IT 202 001  || Phase 4 Assignment
+*/
 
 session_start();
 include_once("gardentoolscategory.php");
@@ -9,10 +10,18 @@ include_once("gardentoolsproduct.php");
 ?>
 <!DOCTYPE html>
 <html>
-<head><title>Inventory Helper</title></head>
+<head>
+    <title>Inventory Helper</title>
+    <link rel="icon" href="images/faviconit.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
 <body>
     <header>
         <?php include("header.inc.php"); ?>
+
+
     </header>
    <section style="height: 425px;">
         <nav style="float: left; height: 100%;">
