@@ -5,8 +5,10 @@ IT 202 001  || Phase 4 Assignment
 */
 if (isset($_SESSION['login'])) {
    unset($_SESSION['login']);
+
+   echo "You have successfully logged out.";
 }
-header("Location: index.php");
+
 ?>
 
 

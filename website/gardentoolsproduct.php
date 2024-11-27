@@ -1,8 +1,9 @@
 <?php
 /*
-Lakshita Madhavan November 15, 2024 lm66@njit.edu
-IT 202 001  || Phase 4 Assignment
+Lakshita Madhavan November 26, 2024 lm66@njit.edu
+IT 202 001  || Phase 5 Assignment
 */
+
 require_once('database.php');
 
 class Item
@@ -166,5 +167,45 @@ class Item
         $db->close();
         return $result;
     }
+
+
+    static function getTotalItems()
+    {
+    $db = getDB();
+    $query = "SELECT count(ToolProductID) FROM SmartGardeningToolsProducts";
+    $result = $db->query($query);
+    $row = $result->fetch_array();
+    if ($row) {
+        return $row[0];
+    } else {
+        return NULL;
+    }
+    }
+    static function getTotalListPrice()
+    {
+    $db = getDB();
+    $query = "SELECT sum(ToolListPrice) FROM SmartGardeningToolsProducts";
+    $result = $db->query($query);
+    $row = $result->fetch_array();
+    if ($row) {
+        return $row[0];
+    } else {
+        return NULL;
+    }
+    }
+
+    static function getTotalWholesalePrice()
+{
+    $db = getDB();
+    $query = "SELECT sum(ToolWholesalePrice) FROM SmartGardeningToolsProducts";
+    $result = $db->query($query);
+    $row = $result->fetch_array();
+    if ($row) {
+        return $row[0];
+    } else {
+        return NULL;
+    }
+}
+
 }
 ?>

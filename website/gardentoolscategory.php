@@ -1,8 +1,9 @@
 <?php
 /*
-Lakshita Madhavan November 15, 2024 lm66@njit.edu
-IT 202 001  || Phase 4 Assignment
+Lakshita Madhavan November 26, 2024 lm66@njit.edu
+IT 202 001  || Phase 5 Assignment
 */
+
 require_once('database.php');
 class Category
 {
@@ -121,6 +122,21 @@ class Category
        $db->close();
        return $result;
    }
+
+   static function getTotalCategories()
+   {
+      $db = getDB();
+      $query = "SELECT count(ToolCategoryID) FROM SmartGardeningToolsCategories";
+      $result = $db->query($query);
+      $row = $result->fetch_array();
+      if ($row) {
+          return $row[0];
+      } else {
+          return NULL;
+      }
+   }
+   
+
 }
 
 
